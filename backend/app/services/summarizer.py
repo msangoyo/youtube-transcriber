@@ -12,7 +12,7 @@ logger = logging.getLogger(__name__)
 class SummarizerService:
     def __init__(self):
         self.client = genai.Client(api_key=settings.GOOGLE_API_KEY)
-        self.model_id = "gemini-2.5-flash"
+        self.model_id = "gemini-1.5-flash"
 
     async def summarize(self, transcript: str) -> str:
         if not transcript:
