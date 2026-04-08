@@ -1,0 +1,7 @@
+fastapi==0.129.0
+uvicorn==0.41.0
+pydantic==2.12.5
+pydantic-settings==2.13.0
+google-genai==1.63.0
+youtube-transcript-api==1.2.4
+requests==2.32.5
